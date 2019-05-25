@@ -1,0 +1,131 @@
+*{
+    box-sizing:border-box;
+}
+.container{
+    background-image:radial-gradient(#6E5963,#1E0E12);
+    width:850px;
+}
+.header{
+    background-color:#F8F8F8;
+    display:inline-block;
+    width:850px;
+}
+.jayne{
+    display:inline-block;
+    width:400px;
+    text-align:left;
+    margin-left:20px;
+    font-family:"Comic Sans MS", sans-serif;
+}
+.master{
+    display:inline-block;
+    width:400px;
+    text-align:right;
+    margin-right:10px;
+
+}
+.mainphoto{
+    width:375px;
+    height:275px;
+    border:5px solid #C0C0C0;
+    margin:10px;
+    display:inline-block;
+}
+.about{
+    display:inline-block;
+    vertical-align: top;
+    width:420px;
+    height:275px;
+    background-color:lightgray;
+    margin:10px; 
+    font-size:15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.about h3{
+    background-image: radial-gradient(#8A8896,#B1B1B5);
+    color:white;
+    height:30px;
+    padding:5px;
+    margin:0px;
+}
+.about a{
+    color:black;
+}
+.about p{
+    padding:10px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.cardcontainer{
+    display:block;
+    padding:5px;
+}
+.card{
+    width:255px;
+    min-height:250px;
+    display:inline-block;
+    margin:10px;
+    vertical-align:top;
+}
+.card .cardimage{
+    display:block;
+    min-height:50px;
+    width:100%;
+
+}
+.card .title{
+    background-image: radial-gradient(#8A8896,#B1B1B5);
+    text-align:left;
+    padding:8px;
+    height:30px;
+    color:white;
+    font-weight:bold;
+}
+.card .cardcaption{
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    height:150px;
+    background-color:lightgray;
+    padding:10px;
+}
+.card .technologies{
+    background-color:lightgray;
+    padding:10px;
+}
+.card .technologies img{
+    height: 40px;
+    width: 40px;
+    margin:1px;
+}
+.link{
+    text-align:center;
+    background-color:lightgray;
+    padding-bottom:10px;
+}
+.button{
+    border:2px solid black;
+    background-color:#417D61;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    padding:5px;
+    margin-top:8px;
+    font-weight:bold;
+    font-size:12px;
+}
+.footer img{
+    width:20px;
+    length:20px;
+}
+.footer{
+    width:850px;
+    background-color:#F8F8F8;
+    text-align:center;
+    padding:10px;
+}
+.footer a{
+    color:black;
+}
+.bottom{
+    padding:5px;
+}
